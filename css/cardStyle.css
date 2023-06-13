@@ -1,0 +1,18 @@
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity ease-in-out 0.5s;
+  }
+  
+  .carousel-fade .carousel-item.active {
+    opacity: 1;
+  }
+  .video {
+    position: relative;
+    padding: 8rem 0 12rem 0;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/water/water.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
