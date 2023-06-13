@@ -7,6 +7,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+<!-- add new to run toggle  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -76,7 +78,35 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid nav-bar bg-light">
+
+    <div class="container-fluid nav-bar  mt-1 " id="nav-bg">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand p-3 text-white" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link text-white" href="service.html" >Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white"href="about.html" >About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white"href="about.html" >Contact Us</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 text-white" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!-- <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
             <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
                 <img src="/img/pro.jpg" class="h-50 w-50" alt="">
@@ -104,7 +134,7 @@
               
             </div>
         </nav>
-    </div>
+    </div> -->
     <!-- Navbar End -->
 
 
@@ -493,6 +523,14 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
+    <!-- add new to run toggle -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <script>$('.carousel').carousel({
         interval: 2000
       })</script>
