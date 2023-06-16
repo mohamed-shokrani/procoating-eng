@@ -53,7 +53,7 @@
 
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
 
-                <img src="img/pro.jpg" loading="lazy" class="h-50 w-50" alt="">
+                <img src="img/pro.jpg"  class="h-50 w-50 w-25 h-25 rounded-3 shadow-lg p-3 mb-4 bg-white rounded" alt="">
 
                 <a href="" class="navbar-brand m-0 p-0">
                 </a>
@@ -86,7 +86,11 @@
 
     <div class="container-fluid nav-bar  mt-1 " id="nav-bg">
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand p-3 text-white" href="index.html">Home</a>
+            <a class="navbar-brand p-3 text-white" href="index.html">
+                <span class="d-none d-lg-inline">Home</span>
+                <img src="img/pro.jpg"  alt="Logo" class="d-lg-none w-25 h-25 rounded-3 shadow-lg p-3 mb-5 bg-white rounded">
+              </a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -109,6 +113,7 @@
                     <input class="form-control mr-sm-2" type="search" placeholder="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0 text-white" type="submit">Search</button>
                 </form>
+
             </div>
         </nav>
     </div>
@@ -382,11 +387,11 @@
                 <h1 class="mb-5">Cold Repair Technology</h1>
             </div>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp rounded-3" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <div class="position-relative overflow-hidden">
+                        <div class="position-relative overflow-hidden rounded-circle">
                             <a href="Waterdetails.html">
-                                <img class="img-fluid" src="img/cold weilding services.jpg" loading="lazy" alt="">
+                                <img class="img-fluid " src="img/cold weilding services.jpg" loading="lazy" alt="">
                             </a>
 
                         </div>
@@ -404,7 +409,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <div class="position-relative overflow-hidden">
+                        <div class="position-relative overflow-hidden rounded-circle">
                             <a href="PowerPlant.html">
                                 <img class="img-fluid" src="img/Power Plant Pubg (2).jpg"  loading="lazy" alt="">
                             </a>
@@ -424,7 +429,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <div class="position-relative overflow-hidden">
+                        <div class="position-relative overflow-hidden rounded-circle">
                             <a href="offshore.html">
                                 <img class="img-fluid" src="img/save the env.jpg"loading="lazy" alt="">
 
@@ -444,7 +449,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
-                        <div class="position-relative overflow-hidden">
+                        <div class="position-relative overflow-hidden rounded-circle">
                             <a href="oil.html">
                                 <img class="img-fluid" src="img/platform.jpg"loading="lazy" alt="">
                             </a>
@@ -567,9 +572,7 @@
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
 
-    <script>$('.carousel').carousel({
-            interval: 2000
-        })</script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
